@@ -19,8 +19,8 @@ function DarkModeToggle() {
         darkMode ? "border-white text-white" : "border-black text-black" 
       }`}
      onClick={handleToggleClick}>
-      <div>{darkMode ? "Dark" : "Light"}</div>
-      <div>{darkMode ? "🌚" : "🌝"} </div>
+      <div>{darkMode ? "Light" : "Dark"}</div>
+      <div>{darkMode ? "🌝" : "🌚"} </div>
     </div>
   );
 }
